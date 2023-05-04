@@ -11,11 +11,11 @@ app.use(express.static("./public"));
 app.use("/api", apiRoutes);
 
 app.get("/notes", (req, res) => {
-    res.sendFile(path.join(__dirname, "public/notes.html"));
+    res.sendFile(path.join(__dirname, "notes.html"));
 });
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "public/index.html"));
+    res.sendFile(path.join(__dirname, "index.html"));
 });
 
 app.listen(PORT, () => console.log("server running on PORT", PORT));
