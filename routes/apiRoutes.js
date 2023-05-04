@@ -17,7 +17,7 @@ const saveDB = () => {
 router.get("/notes", (req, res) => {
     notes = notes.map((note, index) => ({
         ...note,
-        id: index +1,
+        id: index,
     }));
 
     console.log(notes);
@@ -28,7 +28,7 @@ router.get("/notes", (req, res) => {
 router.post("/notes", (req, res) => {
     console.log(req.body);
     notes.push(req.body);
-    saveDB(notes);
+    saveDb();
     res.json(notes);
 });
 
