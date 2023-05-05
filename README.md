@@ -31,8 +31,15 @@ Ability to delete/remove a note.
 
 ## Images
 
-![siteImg]()
+![siteImg](./images/note%20taker%20homepage.png)
 
-## Link
+![siteImg](./images/Screenshot%202023-05-05%20124032.png)
 
-https://jess-222.github.io/Note-Taker/
+
+## Link to deployed app
+
+https://mighty-meadow-65477.herokuapp.com/
+
+## Link to repository
+
+https://github.com/Jess-222/Note-Taker.git
